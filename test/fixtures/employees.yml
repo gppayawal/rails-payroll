@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employee_number: MyString
+  last_name: MyString
+  first_name: MyString
+  middle_name: MyString
+  birthday: MyString
+  daily_rate: 
+  working_days: MyString
+
+two:
+  employee_number: MyString
+  last_name: MyString
+  first_name: MyString
+  middle_name: MyString
+  birthday: MyString
+  daily_rate: 
+  working_days: MyString
