@@ -46,6 +46,11 @@ class EmployeesController < ApplicationController
         redirect_to root_path
     end
 
+    #SEARCH EMPLOYEE
+    def search
+        
+    end
+
     private
     def employee_params
       params.require(:employee).permit(:employee_number, :last_name, :first_name, :middle_name, :birthday, :daily_rate, :working_days)

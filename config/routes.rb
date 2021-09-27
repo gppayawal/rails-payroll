@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   # get "/employees/:id", to: "employees#show"
   resources :employees
 
+  get "/search", to: "employees#search"
+
 end
